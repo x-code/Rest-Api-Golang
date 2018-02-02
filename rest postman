@@ -1,0 +1,195 @@
+{
+	"id": "d4e45527-bb7c-a348-a7d3-8edc3e2b342d",
+	"name": "Kudo",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Users",
+			"description": "",
+			"collectionId": "d4e45527-bb7c-a348-a7d3-8edc3e2b342d",
+			"order": [
+				"c1b990b2-46ea-256a-2260-cd8e8b46b5b8",
+				"a1dc57d7-e600-5be9-a4aa-76966edb646f",
+				"89e523a8-73e6-098d-3729-10a4473d220a",
+				"f53ea6bd-5815-5915-d7a1-c1339ba70bfc",
+				"90418d69-a868-a1a2-408c-7605fd984e95",
+				"474d3109-11b8-6fef-df73-3bd50e2a389f"
+			],
+			"owner": "1485069",
+			"folders_order": [],
+			"id": "0871cd17-1935-b188-82de-b5f88f6f0c55"
+		}
+	],
+	"folders_order": [
+		"0871cd17-1935-b188-82de-b5f88f6f0c55"
+	],
+	"timestamp": 1512756695310,
+	"owner": "1485069",
+	"public": false,
+	"requests": [
+		{
+			"id": "474d3109-11b8-6fef-df73-3bd50e2a389f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/users/5a2ad84b057c7839658bbb56/uploadImage",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": [],
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [
+				{
+					"key": "file",
+					"value": "1002641_10202099914393620_1246460169_n.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": [],
+			"time": 1512772855033,
+			"name": "upload",
+			"description": "",
+			"collectionId": "d4e45527-bb7c-a348-a7d3-8edc3e2b342d",
+			"responses": []
+		},
+		{
+			"id": "89e523a8-73e6-098d-3729-10a4473d220a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/users/{id}",
+			"folder": "0871cd17-1935-b188-82de-b5f88f6f0c55",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": [],
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": [],
+			"time": 1512764063798,
+			"name": "getUser",
+			"description": "",
+			"collectionId": "d4e45527-bb7c-a348-a7d3-8edc3e2b342d",
+			"responses": [],
+			"rawModeData": "{\r\n  \"name\": \"Rian Firandika\",\r\n  \"age\": 27,\r\n  \"photo\": \"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmVAAAAJGMwMDYzOTVlLWVkNTQtNDk0MC04NzdkLWY1ZmMwMWZhMGU1NQ.jpg\"\r\n}"
+		},
+		{
+			"id": "90418d69-a868-a1a2-408c-7605fd984e95",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/users/{id}",
+			"folder": "0871cd17-1935-b188-82de-b5f88f6f0c55",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": [],
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": [],
+			"time": 1512764047570,
+			"name": "delete",
+			"description": "",
+			"collectionId": "d4e45527-bb7c-a348-a7d3-8edc3e2b342d",
+			"responses": []
+		},
+		{
+			"id": "a1dc57d7-e600-5be9-a4aa-76966edb646f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/users/5a2ad84b057c7839658bbb56",
+			"folder": "0871cd17-1935-b188-82de-b5f88f6f0c55",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": [],
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": [],
+			"time": 1512772859565,
+			"name": "update",
+			"description": "",
+			"collectionId": "d4e45527-bb7c-a348-a7d3-8edc3e2b342d",
+			"responses": [],
+			"rawModeData": "{\r\n  \"name\": \"Rian Firandika\",\r\n  \"age\": 27,\r\n  \"photo\": \"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmVAAAAJGMwMDYzOTVlLWVkNTQtNDk0MC04NzdkLWY1ZmMwMWZhMGU1NQ.jpg\"\r\n}"
+		},
+		{
+			"id": "c1b990b2-46ea-256a-2260-cd8e8b46b5b8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/users",
+			"folder": "0871cd17-1935-b188-82de-b5f88f6f0c55",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": [],
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": [],
+			"time": 1512761860961,
+			"name": "create",
+			"description": "",
+			"collectionId": "d4e45527-bb7c-a348-a7d3-8edc3e2b342d",
+			"responses": [],
+			"rawModeData": "{\r\n  \"name\": \"Rian Firandika\",\r\n  \"age\": 27,\r\n  \"photo\": \"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAmVAAAAJGMwMDYzOTVlLWVkNTQtNDk0MC04NzdkLWY1ZmMwMWZhMGU1NQ.jpg\"\r\n}"
+		},
+		{
+			"id": "f53ea6bd-5815-5915-d7a1-c1339ba70bfc",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8000/users",
+			"folder": "0871cd17-1935-b188-82de-b5f88f6f0c55",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": [],
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": [],
+			"time": 1512764044862,
+			"name": "getList",
+			"description": "",
+			"collectionId": "d4e45527-bb7c-a348-a7d3-8edc3e2b342d",
+			"responses": []
+		}
+	]
+}
